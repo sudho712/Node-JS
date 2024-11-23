@@ -1,0 +1,31 @@
+Node.js provides several HTTP methods that are part of the HTTP protocol. These methods are used in conjunction with the http module to create a server and handle client requests. Here’s a summary of the common HTTP methods and their usage in Node.js:
+
+Common HTTP Methods
+GET
+
+Used to retrieve data from the server.
+Example: Fetching a webpage or API data.
+POST
+
+Used to send data to the server to create or update a resource.
+Example: Submitting a form or uploading a file.
+PUT
+
+Used to update an existing resource or create it if it does not exist.
+Example: Updating user information.
+DELETE
+
+Used to delete a resource from the server.
+Example: Deleting a record from a database.
+PATCH
+
+Used to apply partial modifications to a resource.
+Example: Updating specific fields of a user profile.
+OPTIONS
+
+Used to describe the communication options for the target resource.
+Example: Used in CORS (Cross-Origin Resource Sharing) preflight requests.
+HEAD
+
+Similar to GET, but it only retrieves the headers and does not include the body.
+Example: Checking resource metadata.
